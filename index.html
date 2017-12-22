@@ -6,6 +6,7 @@
 	<link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+	<div id="container">
 	<h1>Requesty</h1>
 	Reuqest URL: <input size="50" id="url" /><br><br>
 	Request Method: <select onChange="changeMethod()" id="method">
@@ -14,9 +15,10 @@
 	</select><br>
 	<div id="requestboddiv"><br>
 		Request Body:<br>
-		<textarea id="requestbod"></textarea>
+		<textarea rows="10" id="requestbod"></textarea>
 	</div><br>
 	<button onClick="submit()">Submit</button><br><br>
-	Response: <br><pre id="response"></pre>
+	Response: </div>
+	<pre id="response"></pre>
 </body>
 </html>

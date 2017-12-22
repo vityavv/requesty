@@ -4,12 +4,15 @@
 h1 {
 	text-align: center;
 }
-body {
-	max-width: 600px;
-	position: absolute;
-	left: 50%;
-	margin-left: -50%;
+html {
+	width: 100%;
+}
+#container {
+	width: 40%;
+	position: relative;
+	left: 30%;
 }
 textarea {
 	font-family: monospace;
+	width: 100%;
 }
