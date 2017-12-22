@@ -1,3 +1,15 @@
 #requestboddiv {
 	display: none;
 }
+h1 {
+	text-align: center;
+}
+body {
+	max-width: 600px;
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+}
+textarea {
+	font-family: monospace;
+}
