@@ -22,6 +22,7 @@ function submit() {
 		$("response").innerHTML = "<span style=\"color: red\">No URL!</span>";
 	}
 }
+
 function changeMethod() {
 	if ($("method").value == "POST") {
 		$("requestboddiv").style.display = "block";
